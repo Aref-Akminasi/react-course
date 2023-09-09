@@ -16,11 +16,8 @@ function App() {
       {formData ? (
         <Table data={formData} />
       ) : (
-        <h2 className="fall-back-text">No investment calculated yet.</h2>
+        <h2 className="fall-back-text">No investment calculated yet</h2>
       )}
-
-      {/* Todo: Show below table conditionally (only once result data is available) */}
-      {/* Show fallback text if no data is available */}
     </div>
   );
 }
