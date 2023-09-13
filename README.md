@@ -1,2 +1,0 @@
-# react-course
- My project
